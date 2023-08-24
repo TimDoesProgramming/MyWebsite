@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class controller {
     @GetMapping("/")
     public String index() {
-        System.out.println("===================================Here==================================");
         return "index";
     }
 }
